@@ -1,0 +1,8 @@
+{
+  "localEnyoRoot": "/opt/PalmSDK/Current/share/refcode/framework/",
+  "ciEnyoRoot": "/usr/palm/frameworks/",
+  "enyoVersion": "1.0",
+  "enyoLaunchParams": {
+    "nobridge": true
+  }
+}
