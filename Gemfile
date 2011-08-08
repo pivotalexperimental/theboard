@@ -1,5 +1,5 @@
 source "http://rubygems.org"
 
-gem "eris"
+gem "eris", :path => '~/workspace/eris/'
 gem "jasmine"
 gem "rake"
