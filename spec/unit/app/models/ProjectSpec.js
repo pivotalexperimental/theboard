@@ -11,8 +11,8 @@ describe("Project", function () {
       expect(project.name).toEqual("Workstation Chef")
     });
 
-    it("should have a status", function() {
-      expect(project.status).toEqual("failed")
+    it("should have a build status URL", function() {
+      expect(project.statusUrl).toEqual("http://collingwood.flood.pivotallabs.com:8080/job/Workstation%20Chef/api/json")
     });
   });
 });

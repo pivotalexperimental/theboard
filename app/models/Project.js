@@ -5,10 +5,8 @@ function Project(seed) {
     return seed.displayName;
   });
 
-  self.__defineGetter__("status", function() {
-    if(seed.color == "red") {
-      return "failed";
-    }
+  self.__defineGetter__("statusUrl", function() {
+    return seed.url+"api/json";
   });
 
   return self;
